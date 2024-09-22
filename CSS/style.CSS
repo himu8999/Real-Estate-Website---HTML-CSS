@@ -1,0 +1,1150 @@
+*{
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  height: 50px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: white;
+  position: fixed;
+  z-index: 2;
+}
+
+.logo {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 7px;
+}
+
+.logo>img{
+  padding-top: 7px;
+}
+
+.hamburger {
+  margin-top: 10px;
+}
+
+.head>h1{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+
+.call>p{
+  display: none;
+}
+
+.a_icons2 {
+  display: none;
+}
+
+.head>p{
+  font-family: sans-serif;
+  color: grey;
+  font-size: 12px;
+  line-height: 5px;
+  letter-spacing: 1px;
+}
+
+.hero {
+  width: 90%;
+  height: 530px;
+  background-image: url(https://gasinforest.com/html/bauhaus/demo/light/images/slider/slide2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment:fixed;
+}
+
+.superhero {
+  display: flex;
+  justify-content: center;
+}
+
+.anchor {
+  display: flex;
+  gap: 5px;
+  padding-top: 40px;
+}
+
+.anchor>p{
+  font-size: 10px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 600;
+}
+
+.cta>p{
+  font-size: 8px;
+  font-weight: bold;
+  color: white;
+  padding-bottom: 10px;
+}
+
+.cta {
+  width: 200px;
+}
+
+.cta>h2{
+  padding-top: 10px;
+  line-height: 22px;
+  padding-bottom: 30px;
+  color: white;
+}
+
+.yellow {
+  width: 120px;
+  height: 220px;
+  padding: 20px;
+  border: 2px solid rgb(211, 211, 0);
+}
+
+.hero{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.about {
+  height: 1250px;
+  padding: 20px;
+  padding-top: 100px;
+}
+
+.about_main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about_us {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+
+.about_2 {
+  display: flex;
+  gap: 15px;
+  border: 5px solid #cee002;;
+  width: 120px;
+}
+
+.sec{
+  padding-left: 20px;
+  font-size: 90px;
+  font-weight: 700;
+}
+
+.sec2 {
+  padding-top: 18px;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.about_1>h3{
+  font-size: 15px;
+  letter-spacing: 2px;
+  color: #cee002;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+
+.about_1>h1{
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 35px;
+  padding-bottom: 90px;
+}
+
+.about_1>p{
+  color: grey;
+  font-size: 12px;
+  letter-spacing: 1px;
+  line-height: 22px;
+
+}
+
+.about_img {
+  padding-top: 60px;
+  width: 99%;
+  height: 500px;
+}
+
+.img2{
+  height: 400px;
+  background-image: url(https://gasinforest.com/html/bauhaus/demo/light/images/1-470x660.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.dots {
+  width: 300px;
+  height: 250px;
+  background-image: url(https://gasinforest.com/html/bauhaus/demo/light/images/bg/dots.png);
+  position: relative;
+  top: 51%;
+  right: 20%;
+  z-index: -1;
+}
+
+.project{
+  height: 700px;
+}
+
+.pro_head>h3 {
+  font-size: 32px;
+  padding-bottom: 25px;
+}
+
+.pro_head1>h4{
+  font-size: 12px;
+}
+
+.pro_head>p{
+  font-size: 12px;
+  font-style: italic;
+}
+
+.p{
+  color: grey;
+  font-size: 12px
+}
+
+.pro_main{
+  width: 90%;
+  padding: 20px;
+}
+
+.pro_head1{
+  display: flex;
+  gap: 40px;
+  padding-bottom: 15px;
+}
+
+.pro_img{
+  padding: 20px;
+}
+
+.house1{
+  height: 400px;
+  background-image:linear-gradient(rgba(255, 255, 255, 0),rgba(27, 27, 27, 0.358)) ,url(https://gasinforest.com/html/bauhaus/demo/light/images/projects/1-426x574.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 20px;
+}
+
+.house2 {
+  background-image:linear-gradient(rgba(255, 255, 255, 0),rgba(26, 26, 26, 0.358)) ,url(https://gasinforest.com/html/bauhaus/demo/light/images/projects/2-426x574.jpg);
+  display: none;
+}
+
+.house3 {
+  background-image:linear-gradient(rgba(255, 255, 255, 0),rgba(26, 26, 26, 0.358)),url(https://gasinforest.com/html/bauhaus/demo/light/images/projects/4-426x574.jpg);
+  display: none;
+}
+
+.cta2>h2{
+  color: white;
+  font-size: 30px; 
+}
+
+.testimonial {
+  height: 900px;
+  padding: 20px;
+}
+
+.dots2 {
+  height: 900px;
+  background-image: url(https://gasinforest.com/html/bauhaus/demo/light/images/bg/dots2.png);
+}
+
+
+.test_head {
+  display: flex;
+  padding-top: 100px;
+}
+
+.test_head h1{
+  font-size: 30px;
+  width: 220px;
+}
+
+.arrow{
+  /* width: 100px; */
+  padding-top: 40px;
+}
+
+
+.Client{
+  height:300px;
+  background-color: rgb(255, 255, 255);
+  margin-top: 100px;
+  /* padding-top: 10px; */
+}
+
+.foto{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.photo{
+  width: 90px;
+  height: 90px;
+  background-image: url(https://gasinforest.com/html/bauhaus/demo/light/images/clients/1-92x92.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  bottom: 60px;
+  left: 18px;
+  border-radius: 50%;
+}
+
+.photo2{
+  width: 90px;
+  height: 90px;
+  background-image: url(https://gasinforest.com/html/bauhaus/demo/light/images/clients/2-92x92.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  bottom: 60px;
+  left: 18px;
+  border-radius: 50%;
+}
+
+.colon {
+  background-image: url(https://gasinforest.com/html/bauhaus/demo/light/images/image-icons/icon-quote.png);
+  width: 50px;
+  height: 50px;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 40px;
+  right: 20px;
+}
+
+.info {
+  padding: 20px;
+  padding-top: 0%;
+}
+
+.info>h5{
+  font-size: 18px;
+  font-weight: 500;
+  padding-bottom: 10px;
+  line-height: 25px;
+}
+
+.ceo {
+  font-size: 15px;
+  color: grey;
+}
+
+.inc {
+  padding-bottom: 30px;
+  color: grey;
+}
+
+.info p{
+  color: grey;
+  font-size: 13px;
+  line-height: 25px;
+}
+
+.client2 {
+  display: none;
+}
+
+.companies{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.c3,.c4,.c5 {
+  display: none;
+}
+
+.articles{
+  height: 700px;
+  padding: 20px;
+  padding-top: 100px;
+  border-bottom: 1px solid grey;
+}
+
+.news {
+  display: flex;
+  gap: 5px;
+}
+
+.news h1{
+  font-size: 30px;
+}
+
+.news h4{
+  font-weight: 300;
+  color: grey;
+  font-size: 15px;
+  padding-top: 12px;
+}
+
+.news_img{
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.n_img1{
+  width: 270px;
+  height: 260px;
+  background-image: url(https://gasinforest.com/html/bauhaus/demo/light/images/news/1-370x370.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+footer {
+  height: 400px;
+}
+
+.foot {
+  padding:100px 20px 100px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.foot_para p{
+  color: rgb(38, 41, 0);
+  font-size: 12px;
+  line-height: 21px;
+  font-weight: 400;
+}
+
+.foot_para1 a{
+  color: rgb(38, 41, 0);
+  font-size: 12px;
+  line-height: 21px;
+  font-weight: 400;
+
+}
+
+a img{
+  width: 20px;
+}
+
+
+/* TABLET */
+
+@media(min-width:768px){
+
+  header{
+    padding: 40px;
+  }
+
+  .hero{
+    height: 600px;
+  }
+
+  .a_icons2 {
+    display: inline-flex;
+    gap: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+  }
+
+  .hamburger{
+    margin-top: 18px;
+  }
+
+  .call {
+    gap: 20px;
+  }
+
+  .cta {
+    padding-top: 30px;
+    width: 300px;
+    padding-left: 25px;
+  }
+
+  .cta>h2{
+    font-size: 32px;
+    padding-top: 10px;
+    line-height: 35px;
+    font-weight: 600;
+    padding-bottom: 30px;
+    color: white;
+  }
+  
+  .yellow {
+    width: 200px;
+    height: 350px;
+    padding: 20px;
+    border: 3px solid rgb(211, 211, 0);
+    position: relative;
+    left: 150px;
+  }
+
+  .about {
+    height: 1400px;
+  }
+
+  .about_us {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+  }
+
+  .about_main {
+    padding: 40px;
+  }
+
+  .about_img{
+    padding-top: 20;
+  }
+
+  .img2{
+    width: 450px;
+    height: 630px;
+  }
+
+  .dots{
+    padding-left: 0%;
+    width: 500px;
+    height: 400px;
+  }
+
+  .project{
+    padding: 40px;
+  }
+
+  .pro_img {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .house1 {
+    width: 48%;
+    height: 450px;
+  }
+
+  .house2 {
+    display: inline-block;
+    background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  }
+
+  .cta2 {
+    width: 250px;
+  }
+
+  .project{
+    height: 900px;
+  }
+
+  .pro_head{
+    /* display: flex; */
+    justify-content: center;
+    gap: 60px;
+  }
+
+  .pro_head1{
+    padding-top: 10px;
+    display: flex;
+  }
+
+  .pro_head h3 {
+    display: block;
+    font-size: 35px;
+    width: 650px;
+  }
+
+  .pro_head p {
+    font-size: 15px;
+  }
+
+  .pro_head1 h4{
+    font-size: 14px;
+  }
+
+  .testimonial{
+    height: 1000px;
+    padding: 40px;
+  }
+
+  .test_head{
+    /* width: 700px;   */
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+  }
+
+  .test_head>h1{
+    font-size: 36px;
+  }
+
+  .arrow{
+    padding-top: 8px;
+  }
+
+  .arrow>img{
+    width: 30px;
+  }
+
+  .Client{
+    width: 800px;
+    height: 250px;
+  }
+
+  .cli_flex{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+  }
+
+  .c3 {
+    display: inline-block;
+  }
+
+  .news {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  .news_img {
+    display: flex;
+    gap: 20px;
+  }
+
+  .n_img1 {
+    width: 330px;
+    height: 330px;
+  }
+
+  .n_img2{
+    background-image: url(https://gasinforest.com/html/bauhaus/demo/light/images/news/2-370x370.jpg);
+    display: inline-block;
+    width: 330px;
+    height: 330px;
+  }
+
+  .foot {
+    padding:100px 30px 100px 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 100px;
+  }
+
+  .foot_para p{
+    color: rgb(38, 41, 0);
+    font-size: 13px;
+    line-height: 22px;
+    font-weight: 400;
+  }
+  
+  .foot_para1 a{
+    color: rgb(38, 41, 0);
+    font-size: 13px;
+    line-height: 22px;
+    font-weight: 400;
+  
+  }
+
+
+
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+@media(min-width:992px){
+
+  header {
+    padding: 50px;
+  }
+
+  .superhero{
+    padding: 50px;
+  }
+
+  .hero {
+    padding: 20px;
+    width: 100%;
+    height: 650px;
+    background-size: cover;
+    background-position: top center;
+  }
+
+  .call{
+    gap: 30px;
+  }
+
+  .hamburger{
+    margin-top: 20px;
+  }
+
+  .call>p{
+    display: inline-block;
+  }
+
+  .cta>p{
+    font-size: 13px;
+    font-weight: 600;
+    color: white;
+    padding-bottom: 10px;
+    line-height: 15px;
+  }
+  
+  .cta {
+    padding-top: 30px;
+    width: 400px;
+    padding-left: 25px;
+  }
+
+  .call{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    /* left: 250px; */
+  }
+
+  .con {
+    color: rgb(102, 102, 102);
+    font-size: 14px;
+  }
+
+  .call>p{
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    padding: 28px;
+    border-right: 1px solid grey;
+  }
+
+  .con {
+    text-transform: uppercase;
+
+  }
+
+  .a_icons2 {
+    padding-left: 20px;
+    display: flex;
+    gap: 30px;
+    padding: 25px;
+  }
+
+  .anchor {
+    display: flex;
+    gap: 5px;
+    padding-top: 100px;
+  }
+  
+  .anchor>p{
+    font-size: 13px;
+    line-height: 13px;
+    font-weight: 600;
+  }
+
+  .cta>h2{
+    font-size: 47px;
+    padding-top: 10px;
+    line-height: 51px;
+    font-weight: 600;
+    padding-bottom: 30px;
+    color: white;
+  }
+  
+  .yellow {
+    width: 200px;
+    height: 420px;
+    padding: 20px;
+    border: 5px solid rgb(211, 211, 0);
+    position: relative;
+    left: 350px;
+  }
+
+  .about {
+    height: 910px;
+  }
+
+  .about_main{
+    padding: 50px;
+    padding-top: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 100px;
+  }
+
+  .about_us{
+    width: 45%;
+    /* padding-top: 100px; */
+  }
+
+  .about_img{
+    width: 45%;
+    padding-top: 0;
+  }
+
+  .img2{
+    width: 450px;
+    height: 630px;
+  }
+
+  .dots{
+    width: 500px;
+    height: 400px;
+  }
+
+  .about_1>h1{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 45px;
+  }
+
+  .about_1>p{
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .about_1{
+    padding-top: 100px;
+  }
+
+  .about{
+    padding: 0%;
+    margin: 0%;
+  }
+
+  .about_2 {
+    width: 200px;
+    height: 200px;
+    padding-top: 30px;
+    padding-left: 60px;
+  }
+
+  .sec {
+    font-size: 120px;
+  }
+
+  .sec2 {
+    padding-top: 26px;
+  }
+
+  .pro_img {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .house1 {
+    width: 30%;
+    height: 650px;
+  }
+
+  .house2 {
+    display: inline-block;
+    background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  }
+
+  .house3 {
+    display: inline-block;
+    background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  }
+
+  .cta2 {
+    width: 250px;
+  }
+
+  .project{
+    height: 900px;
+  }
+
+  .pro_head{
+    display: flex;
+    justify-content: space-between;
+    /* gap: 60px; */
+    width: 90%;
+    /* border:3px solid #cee002; */
+  }
+
+  .pro_head1{
+    /* border: 2px solid black; */
+  }
+
+  .pro_main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid red; */
+  }
+
+  .p {
+    font-size: 13px;
+  }
+
+  .pro_head1{
+    padding-top: 10px;
+  }
+
+  .pro_head h3 {
+    font-size: 35px;
+    width: 500px;
+  }
+
+  .pro_head p {
+    padding-top: 13px;
+    font-size: 15px;
+  }
+
+  .pro_head1 h4{
+    font-size: 18px;
+  }
+
+  .testimonial{
+    height: 1000px;
+    padding: 50px;
+  }
+
+  .dots2{
+    padding: 90px;
+  }
+
+  .test_head{
+    /* width: 700px;   */
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+  }
+
+  .test_head>h1{
+    width: auto;
+    font-size: 36px;
+  }
+
+  .arrow{
+    padding-top: 8px;
+  }
+
+  .arrow>img{
+    width: 30px;
+  }
+
+  .Client{
+    width: 500px;
+  }
+
+  .client2{
+    display: inline-block;
+  }
+
+  .cli_flex{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+  }
+
+  .c3,.c4,.c5 {
+    display: inline-block;
+  }
+
+  .companies{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .info p{
+    font-size: 15px;
+  }
+
+  .news{
+    justify-content: space-around;
+    gap: 530px;
+  }
+
+  .news h1 {
+    font-size: 40px;
+  }
+
+  .news h4 {
+    font-size: 18px;
+  }
+
+  .news_img{
+    gap: 30px;
+  }
+
+  .n_img1{
+    width: 370px;
+    height: 370px;
+  }
+
+  .n_img2{
+    width: 370px;
+    height: 370px;
+    background-image: url(https://gasinforest.com/html/bauhaus/demo/light/images/news/2-370x370.jpg);
+  }
+
+  .n_img3{
+    width: 370px;
+    height: 370px;
+    background-image: url(https://gasinforest.com/html/bauhaus/demo/light/images/news/3-370x370.jpg);
+  }
+
+  .foot{
+    flex-direction: row;
+    justify-content: center;
+    gap: 150px;
+  }  
+}
